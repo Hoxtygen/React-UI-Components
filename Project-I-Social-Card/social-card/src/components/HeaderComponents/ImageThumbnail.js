@@ -4,7 +4,7 @@ import './Header.css';
 function ImageThumbnail({imageSource})  {
   return (
     <div className = 'header-image-container'>
-      <img src = { imageSource }></img>
+      <img src = { imageSource } alt =""></img>
     </div>
   )
 }
