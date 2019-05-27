@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+.image-container   {
+  border: 1px solid maroon;
+}
+
+.image-container img   {
+  width:100%;
+  height: auto;
+}
