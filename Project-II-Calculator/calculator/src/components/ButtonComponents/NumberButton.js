@@ -10,22 +10,22 @@ export default function NumberButton() {
             <td colSpan='3'>Clear</td>
           </tr>
           <tr>
-            <td>9</td>
-            <td>8</td>
-            <td>7</td>
+            <td id ="nine">9</td>
+            <td id ="eight">8</td>
+            <td id ="seven">7</td>
           </tr>
           <tr>
-            <td>6</td>
-            <td>5</td>
-            <td>4</td>
+            <td id ="six">6</td>
+            <td id ="five">5</td>
+            <td id ="four">4</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>2</td>
-            <td>1</td>
+            <td id ="three">3</td>
+            <td id ="two">2</td>
+            <td id ="one">1</td>
           </tr>
           <tr>
-            <td colSpan="3">0</td>
+            <td colSpan="3" id ="zero">0</td>
           </tr>
         </tbody>
         </table>

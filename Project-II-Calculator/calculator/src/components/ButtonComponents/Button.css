@@ -16,6 +16,11 @@
 .number-buttons table  tr  td {
   padding: 20px 10px;
   border: 1px solid #ccc;
+  font-weight: 700;
+}
+
+.number-buttons table  tr:nth-child(1) td  {
+  font-weight: normal;
 }
 
 .screen   {
@@ -46,5 +51,9 @@
   background-color: red;
   border: 1px solid #ccc;
   border: 1px solid #ccc;
+  font-weight: 700;
+}
 
+table  tr  td   {
+  cursor: pointer;
 }

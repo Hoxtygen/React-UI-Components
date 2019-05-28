@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
-import ButtonContainer from "./components/ButtonComponents/ButtonContainer"
+import ButtonContainer from "./components/ButtonComponents/ButtonContainer";
 
-const App = () => {
-  return (
-    <div className = "App">
-      <CalculatorDisplay />
-      <ButtonContainer />
-    </div>
-  );
-};
-
-export default App;
+export default class App extends Component {
+    render() {
+        return (
+            <div className = "App">
+              <CalculatorDisplay />
+              <ButtonContainer />
+            </div>
+        )
+    }
+}

@@ -7,19 +7,19 @@ export default function ActionButton() {
       <table>
         <tbody>
           <tr>
-            <td>/</td>
+            <td id ="divide">÷</td>
           </tr>
           <tr>
-            <td>X</td>
+            <td id ="multiply">X</td>
           </tr>
           <tr>
-            <td>-</td>
+            <td id ="minus">-</td>
           </tr>
           <tr>
-            <td>+</td>
+            <td id ="add">+</td>
           </tr>
           <tr>
-            <td>=</td>
+            <td id ="equals">=</td>
           </tr>
         </tbody>
       </table>
