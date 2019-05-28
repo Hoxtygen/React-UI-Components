@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.header-container   {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 620px;
+  margin: 0 auto;
+}
+
+.header-container p   {
+  margin-top: 10px;
+}
+
+.header-container h4   {
+  padding-top: 10px;
+}
+
+.header-image-container img  {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+h1, h2, h3, h4, h5, h6   {
+  margin: 0;
+  padding: 0;
+}
